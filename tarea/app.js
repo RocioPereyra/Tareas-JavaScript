@@ -4,8 +4,8 @@ let numero1 = 25;
 let numero2 = 32;
 let numero3 = 48;
 
-alert(`El número mayor es: ${numero3}`);
-alert(`El número menor es: ${numero1}`);
+alert(`El número máximo es: ${Math.max(numero1, numero2, numero3)}`);
+alert(`El número mínimo es: ${Math.min(numero1, numero2, numero3)}`);
 alert(`La raíz cuadrada de ${numero2} es: ${Math.sqrt(numero2)}`);
 
 // Tarea 3
