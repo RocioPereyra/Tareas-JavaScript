@@ -31,3 +31,14 @@ console.log(alumnos.includes('Rocío')) //Si el elemento existe nos devuelve tru
 //Eliminar un elemento mediante su posición
 let pos=1
 alumnos.splice(pos,1);
+//Eliminar varios elementos a partir su posición
+let alumnosEliminados= alumnos.splice(0,3);
+//Reemplazar valores
+alumnos.splice(0, 2, 'Daniel', 'Augusto')
+//Concatenar dos array
+// let comision = alumnos.concat(alumnas)
+//Invertir el orden
+
+
+
+let respuesta=['🥚', '🐔'].sort()
