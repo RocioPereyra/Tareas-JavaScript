@@ -34,3 +34,4 @@ let alumnos = [
 for (let i = 0; i < alumnos.length; i++) {
   console.log(`Nombre: ${alumnos[i].nombre} - ${alumnos[i].curso}`);
 }
+
